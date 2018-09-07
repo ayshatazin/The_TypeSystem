@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Scale Category"
+            android:textColor="@color/black"
+            android:textSize="7sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Typeface"
+            android:textColor="@color/black"
+            android:textSize="7sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="font"
+            android:textColor="@color/black"
+            android:textSize="7sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Size"
+            android:textColor="@color/black"
+            android:textSize="7sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="case"
+            android:textColor="@color/black"
+            android:textSize="7sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Letter Spacing"
+            android:textColor="@color/black"
+            android:textSize="7sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5sp"
+            android:text="H1"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Light"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="96"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="-1.5"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+    <view
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="match_parent"
+            android:text="H2"
+            android:paddingLeft="5sp"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Light"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="68"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="-0.5"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="match_parent"
+            android:text="H3"
+            android:paddingLeft="5sp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="48"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="match_parent"
+            android:text="H4"
+            android:paddingLeft="5sp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="34"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.25"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="37sp"
+            android:paddingLeft="5dp"
+            android:text="H5"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="24"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="30sp"
+            android:text="H6"
+            android:paddingLeft="5sp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Medium"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.15"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="25sp"
+            android:text="Subtitle1"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="16"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.15"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="25sp"
+            android:text="Subtitle2"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Medium"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="14"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.1"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="26sp"
+            android:text="Body1"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="16"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.5"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="25sp"
+            android:text="Body2"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="14"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.25"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="26sp"
+            android:text="BUTTON"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Medium"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="14"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="All caps"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.75"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="27sp"
+            android:text="Caption"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sentence"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0.4"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75sp"
+            android:layout_height="match_parent"
+            android:padding="5sp"
+            android:text="OVERLINE"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="65sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Roboto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="All caps"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <view
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1.5"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
